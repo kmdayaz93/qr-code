@@ -34,4 +34,12 @@ body{
     color: #a1aab3;
     padding-bottom: 15px;
 }
-
+@media (prefers-color-scheme:dark)
+{
+    .bcolor{
+        background-color: #2d2d2d !important;
+    }
+    .main-text, .secondary-text{
+        color: #ffffff !important;
+    }
+}
